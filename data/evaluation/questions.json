@@ -1,0 +1,22 @@
+[
+  {"question":"RAG 的核心流程是什么？","category":"基础知识"},
+  {"question":"chunk overlap 有什么作用？","category":"基础知识"},
+  {"question":"Transformer 的注意力机制如何计算？","category":"基础知识"},
+  {"question":"Qdrant 支持哪些元数据？","category":"事实查询"},
+  {"question":"FastAPI 为什么适合构建 RAG API？","category":"多文档"},
+  {"question":"混合检索为什么比单一检索更稳健？","category":"多文档"},
+  {"question":"Embedding 在系统中承担什么职责？","category":"基础知识"},
+  {"question":"上传文档需要做哪些安全校验？","category":"事实查询"},
+  {"question":"如何评估 RAG 的引用准确性？","category":"基础知识"},
+  {"question":"Agent 需要哪些可靠性机制？","category":"多文档"},
+  {"question":"请分析一个要求 Python、RAG、Docker 的 JD","category":"JD 分析"},
+  {"question":"请给出两道 RAG 面试题","category":"面试题"},
+  {"question":"知识库中是否有关于量子烹饪的资料？","category":"无答案"},
+  {"question":"temperature 对生成有什么影响？","category":"事实查询"},
+  {"question":"为什么需要 rerank？","category":"基础知识"},
+  {"question":"如何避免把模型常识当成知识库事实？","category":"容易产生幻觉的问题"},
+  {"question":"SQLite 在项目中保存什么？","category":"事实查询"},
+  {"question":"如何处理工具调用失败？","category":"多文档"},
+  {"question":"PDF 文档如何保留页码引用？","category":"事实查询"},
+  {"question":"无答案时系统应该返回什么？","category":"容易产生幻觉的问题"}
+]
