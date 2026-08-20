@@ -13,6 +13,8 @@ class Source(BaseModel):
     chunk_id: str
     score: float
     snippet: str
+    source_type: str = "knowledge_base"
+    url: str | None = None
 
 
 class ChatData(BaseModel):

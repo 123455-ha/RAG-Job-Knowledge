@@ -6,6 +6,7 @@
 
 - PDF / Markdown / TXT / DOCX 上传、解析、清洗和可配置切片
 - Qdrant collection（不可用时自动回退本地索引）的向量 + 关键词混合检索、规则重排、来源引用和无答案拒答
+- 知识库相关性不足时自动通过 Bing RSS 执行网络检索，模型基于网络摘要补充回答，并返回可点击网页来源
 - SQLite 文档元数据与对话历史；Qdrant 服务可由 Compose 启动并作为后续向量存储扩展点
 - JD 结构化分析、技能匹配、面试题生成、20 条评测集和真实评测脚本
 - React + Vite 三个页面：对话、知识库、JD 分析；FastAPI Swagger 自动文档
